@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.firstCard {
+  width: 161px;
+  height: 275px;
+  background-color: black;
+  cursor: pointer;
+  margin: 0px 5px 5px 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.newCard {
+  height: 275px;
+  margin: 0px 5px 5px 5px;
+  background-size: cover;
+  padding: 0;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
